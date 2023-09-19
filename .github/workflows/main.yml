@@ -2,9 +2,9 @@ name: Robot data
 
 # Cron pour faire fonctionner le script à 8h du matin
 on:
- #push:
- schedule:
-  - cron: "0 6 * * *"
+ push:
+ #schedule:
+  #- cron: "0 6 * * *"
 
 permissions:
  contents: write
